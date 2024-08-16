@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(80, 141, 182);
+    color:rgb(21, 255, 0);
+    font-family:Helvetica;
+    text-align:center;
+    font-size:160%;
+    border:2px solid rgb(0, 57, 85);
+    padding:30px;
+    margin:10px;
+  }
+  h1 {
+    color:rgb(0, 57, 85);
+    font-family:Helvetica;
+    text-align:center;
+    padding:30px;
+    margin:10px;
+  }
+  p1 {
+    background-color:rgb(255, 255, 255);
+    color:rgb(255, 0, 0);
+    font-family:Helvetica;
+    text-align:center;
+    border:2px solid rgb(111, 71, 255);
+    padding:30px;
+    margin:10px;
+  }
+  article1 {
+    font-family:Helvetica;
+    text-align:left;
+    padding:30px;
+    margin:10px; 
+  }

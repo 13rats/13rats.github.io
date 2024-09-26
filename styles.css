@@ -1,32 +1,82 @@
+/* General reset for margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
 body {
-    background-color:rgb(80, 141, 182);
-    color:rgb(21, 255, 0);
-    font-family:Helvetica;
-    text-align:center;
-    font-size:160%;
-    border:2px solid rgb(0, 57, 85);
-    padding:30px;
-    margin:10px;
-  }
-  h1 {
-    color:rgb(0, 57, 85);
-    font-family:Helvetica;
-    text-align:center;
-    padding:30px;
-    margin:10px;
-  }
-  p1 {
-    background-color:rgb(255, 255, 255);
-    color:rgb(255, 0, 0);
-    font-family:Helvetica;
-    text-align:center;
-    border:2px solid rgb(111, 71, 255);
-    padding:30px;
-    margin:10px;
-  }
-  article1 {
-    font-family:Helvetica;
-    text-align:left;
-    padding:30px;
-    margin:10px; 
-  }
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #444; /* Slightly lighter than header/footer */
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+/* Navigation bar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Dark color for header and footer */
+  padding: 1rem 2rem;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f4f4f4;
+}
+
+/* Main content sections */
+main {
+  width: 60%; /* The content takes 60% of the screen */
+  margin: 0 auto; /* Center the content, giving 20% margins on both sides */
+  padding: 2rem; /* Optional padding for inner spacing */
+  max-width: 1200px; /* Limits the width for larger screens */
+}
+
+main h1, main h2 {
+  color: #f4f4f4; /* Light text for titles */
+}
+
+main section {
+  margin: 2rem 0;
+}
+
+p {
+  color: #ddd; /* Light gray for paragraph text */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333; /* Same dark color as header */
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
